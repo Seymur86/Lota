@@ -1,0 +1,437 @@
+@import url('./reset.css');
+@import url('./font.css');
+
+header,
+.head-box-yellow,
+.container,
+.main-cover,
+.final,
+footer {
+    background-color: #1f1e23;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.head-box,
+.yellow-head,
+.container-box,
+.main-box,
+.main-second,
+.main-yellow,
+.main-offers,
+.final-text {
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+}
+
+.head-mini-box {
+    width: 700px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    display: flex;
+    padding: 20px 20px;
+    justify-content: space-between;
+}
+
+.head-mini-box h2 {
+    color: #26252a;
+    font-family: 'Roboto', Arial, sans-serif !important;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: left;
+    text-transform: uppercase;
+    min-width: auto !important;
+}
+
+.head-link {
+    display: flex;
+    gap: 10px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 11px;
+    line-height: 16px;
+    font-family: 'Roboto', Arial, sans-serif !important;
+}
+
+.head-link a {
+    color: #26252a;
+}
+
+.head-box-yellow {
+    background-color: #f6de17;
+}
+
+.yellow-head {
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.yellow-image {
+    padding: 0px 20px;
+    padding-bottom: 20px;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 25px;
+    padding: 15px 30px;
+}
+
+.container {
+    background-color: white;
+
+}
+
+.container-box {
+    padding-top: 0px;
+}
+
+.container-box img {
+    width: 100%;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #f6de17;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 30px;
+}
+
+.container-text h2 {
+    font-weight: bold;
+    color: #26252a;
+    font-family: 'Roboto', Arial, sans-serif !important;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.container-text span {
+    color: #26252a;
+    font-family: 'Roboto', Arial, sans-serif !important;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    min-width: auto !important;
+    font-weight: normal;
+}
+
+.container-text p {
+    color: #26252a;
+    font-family: 'Roboto', Arial, sans-serif !important;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    min-width: auto !important;
+    font-weight: normal;
+}
+
+.container-text a {
+    background-color: #1f1e23;
+    min-width: 120px;
+    height: 30px;
+    color: #f6de17;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Roboto', Arial, sans-serif !important;
+    padding: 8px 10px;
+}
+
+.main-cover {
+    background-color: #1f1e23;
+    height: auto;
+    flex-direction: column;
+}
+
+.main-box {
+    padding-top: 0px;
+    background-color: #26252a;
+}
+
+.main-cover img {
+    width: 100%;
+}
+
+.main-center {
+    display: flex;
+    gap: 30px;
+    width: 700px;
+    height: auto;
+    padding: 40px 40px;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 350px;
+    height: auto;
+}
+
+.main-text h2 {
+    color: #f6de17;
+    font-family: 'Roboto', Arial, sans-serif !important;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: left;
+    font-weight: bold;
+    min-width: auto !important;
+}
+
+.main-text p {
+    color: #eeeeee;
+    font-family: Arial, sans-serif, 'Roboto';
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    min-width: auto !important;
+    font-family: 'Roboto', Arial, sans-serif !important;
+    font-weight: normal;
+}
+
+.main-text a {
+    color: #26252a;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto', Arial, sans-serif !important;
+    background-color: #f6de17;
+    max-width: 100px;
+    height: 35px;
+    padding: 10px 15px;
+}
+
+.main-image {
+    width: 350px;
+    height: auto;
+}
+
+.main-second {
+    gap: 20px;
+    background-color: #26252a;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-second h2 {
+    color: #f6de17;
+    font-family: 'Roboto', Arial, sans-serif !important;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    min-width: auto !important;
+}
+
+.main-second p {
+    color: #eeeeee;
+    font-family: 'Roboto', Arial, sans-serif !important;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    min-width: auto !important;
+    font-weight: normal;
+    width: 620px;
+}
+
+.main-second a {
+    color: #373737;
+    font-family: 'Roboto', Arial, sans-serif !important;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 110px;
+    height: 35px;
+    padding: 14px 20px;
+    background-color: #f6de17;
+}
+
+.main-yellow {
+    background-color: #f6de17;
+    padding: 0px;
+}
+
+.main-yellow h2 {
+    color: #373737;
+    font-family: 'Roboto', Arial, sans-serif !important;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.boxes {
+    display: flex;
+    gap: 20px;
+    padding: 10px 30px;
+}
+
+.boxes img {
+    width: 200px;
+    height: 200px;
+}
+
+.mini-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px 20px;
+    width: 420px;
+    height: auto;
+    background-color: #eeeeee;
+}
+
+.mini-boxes h2 {
+    font-weight: bold;
+    color: #373737;
+    font-family: 'Roboto', Arial, sans-serif !important;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.mini-boxes p {
+    color: #26252a;
+    font-family: 'Roboto', Arial, sans-serif !important;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.mini-boxes a {
+    color: #26252a;
+    text-decoration: underline;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Roboto', Arial, sans-serif !important;
+}
+
+.main-offers {
+    background-color: #373737;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-offers h2 {
+    color: #f6de17;
+    font-family: 'Roboto', Arial, sans-serif !important;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.final-boxes {
+    display: flex;
+    width: 650px;
+    height: auto;
+    gap: 20px;
+}
+
+.first-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #f6de17;
+    width: 315px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    gap: 10px;
+}
+
+.first-box img {
+    width: 315px;
+}
+
+.first-box h2 {
+    color: #373737;
+    font-family: 'Roboto', Arial, sans-serif !important;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.first-box p {
+    color: #26252a;
+    font-family: 'Roboto', Arial, sans-serif !important;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.first-box a {
+    color: #26252a;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto', Arial, sans-serif !important;
+    background-color: #eeeeee;
+    padding: 10px 25px;
+    width: 120px;
+    height: 35px;
+}
+
+.final {
+    background-color: #eeeeee;
+    padding-bottom: 20px;
+}
+
+.final-text {
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.final img {
+    width: 200px;
+}
+
+footer {
+    height: 120px;
+    padding: 50px 30px;
+}
+
+footer span {
+    color: #f6de17;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer marquee {
+    color: #eeeeee;
+    font-size: 18px;
+    font-weight: bold;
+}
